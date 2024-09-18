@@ -1,24 +1,23 @@
-import { Layout, Menu } from "antd";
+import { Layout } from "antd";
+import { Outlet } from "react-router-dom";
+import { Menu } from "./ui";
 
-const { Header, Footer, Content, Sider } = Layout;
+const { Header, Footer } = Layout;
 
 function App() {
-  const items = new Array(15).fill(null).map((_, index) => ({
-    key: index + 1,
-    label: `nav ${index + 1}`,
-  }));
+  const items = [
+    {
+      key: "/",
+      label: `Главная`,
+    },
+    {
+      key: "/lessons",
+      label: `Уроки корейского языка`,
+    },
+  ];
 
   return (
     <Layout>
-      <Sider>
-        <div className="demo-logo-vertical" />
-        <Menu
-          theme="dark"
-          defaultSelectedKeys={["1"]}
-          mode="inline"
-          items={items}
-        />
-      </Sider>
       <Layout>
         <Header
           style={{
@@ -26,31 +25,9 @@ function App() {
             alignItems: "center",
           }}
         >
-          <Menu
-            theme="dark"
-            mode="horizontal"
-            defaultSelectedKeys={["2"]}
-            items={items}
-            style={{
-              flex: 1,
-              minWidth: 0,
-            }}
-          />
+          <Menu items={items} isHorizontal />
         </Header>
-        <Content
-          style={{
-            padding: "0 48px",
-          }}
-        >
-          <div
-            style={{
-              minHeight: 280,
-              padding: 24,
-            }}
-          >
-            Content
-          </div>
-        </Content>
+        <Outlet />
         <Footer
           style={{
             textAlign: "center",
