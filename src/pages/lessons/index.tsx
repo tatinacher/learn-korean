@@ -18,7 +18,7 @@ export const LessonsPage = () => {
 
   return (
     <Layout>
-      <Sider>
+      <Sider theme="light" style={{ marginTop: "1px" }}>
         <Menu items={items} />
       </Sider>
       <Content

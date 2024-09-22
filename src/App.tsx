@@ -23,6 +23,7 @@ function App() {
           style={{
             display: "flex",
             alignItems: "center",
+            background: "#fff",
           }}
         >
           <Menu items={items} isHorizontal />

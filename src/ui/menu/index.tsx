@@ -17,7 +17,6 @@ export const Menu = ({ items, isHorizontal }: MenuProps) => {
   };
   return (
     <MenuAntd
-      theme="dark"
       mode={isHorizontal ? "horizontal" : "vertical"}
       //   defaultSelectedKeys={["2"]}
       items={items}

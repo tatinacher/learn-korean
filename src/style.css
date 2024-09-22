@@ -1,3 +1,11 @@
 body {
   margin: 0;
 }
+.ant-menu-light {
+  background: transparent;
+}
+.ant-menu-horizontal {
+  border-bottom: transparent;
+}
+
+/* margin-top: 1px; */
