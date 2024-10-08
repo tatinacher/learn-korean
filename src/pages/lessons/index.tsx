@@ -8,11 +8,15 @@ export const LessonsPage = () => {
   const items = [
     {
       key: "/lessons/hangul",
-      label: `Корейский алфавит`,
+      label: `Корейский алфавит 🔤`,
     },
     {
       key: "/lessons/first-words",
-      label: `Первые слова`,
+      label: `Первые слова 🐤`,
+    },
+    {
+      key: "/lessons/present-tense",
+      label: `Настоящее время ⏰`,
     },
   ];
 

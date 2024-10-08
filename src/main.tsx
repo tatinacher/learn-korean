@@ -4,7 +4,13 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.tsx";
-import { FirstWordsPage, HangulPage, LessonsPage, MainPage } from "./pages";
+import {
+  FirstWordsPage,
+  HangulPage,
+  LessonsPage,
+  MainPage,
+  PresentTensePage,
+} from "./pages";
 import "./style.css";
 import { ConfigProvider } from "antd";
 
@@ -28,6 +34,10 @@ const router = createBrowserRouter([
           {
             path: "first-words",
             element: <FirstWordsPage />,
+          },
+          {
+            path: "present-tense",
+            element: <PresentTensePage />,
           },
         ],
       },
