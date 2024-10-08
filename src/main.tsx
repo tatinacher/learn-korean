@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.tsx";
-import { FirstWordsPage, HangulPage, LessonsPage } from "./pages";
+import { FirstWordsPage, HangulPage, LessonsPage, MainPage } from "./pages";
 import "./style.css";
 import { ConfigProvider } from "antd";
 
@@ -13,6 +13,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "/",
+        element: <MainPage />,
+      },
       {
         path: "lessons",
         element: <LessonsPage />,
