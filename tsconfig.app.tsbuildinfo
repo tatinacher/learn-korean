@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/addons/styles.tsx","./src/pages/index.ts","./src/pages/lessons/first-words.tsx","./src/pages/lessons/hangul.tsx","./src/pages/lessons/index.tsx","./src/pages/lessons/present-time.tsx","./src/pages/main/main-page.tsx","./src/ui/index.ts","./src/ui/menu/index.tsx"],"errors":true,"version":"5.6.2"}

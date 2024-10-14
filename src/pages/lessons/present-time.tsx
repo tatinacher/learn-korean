@@ -1,7 +1,7 @@
 import { Divider, Table, Tooltip, Typography } from "antd";
 import { InfoCircleOutlined, TranslationOutlined } from "@ant-design/icons";
 
-const { Text, Title } = Typography;
+const { Title } = Typography;
 
 const columns = [
   {
