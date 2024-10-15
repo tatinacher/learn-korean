@@ -14,6 +14,7 @@ import {
 } from "./pages";
 import "./style.css";
 import { ConfigProvider } from "antd";
+import { Words_3_4_Page } from "./pages/lessons/words-3-4.tsx";
 
 const router = createBrowserRouter([
   {
@@ -36,10 +37,10 @@ const router = createBrowserRouter([
             path: "words-1-2",
             element: <Words_1_2_Page />,
           },
-          // {
-          //   path: "words-3-4",
-          //   element: <Words_3_4_Page />,
-          // },
+          {
+            path: "words-3-4",
+            element: <Words_3_4_Page />,
+          },
           {
             path: "present-tense",
             element: <PresentTensePage />,
