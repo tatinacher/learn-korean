@@ -19,6 +19,14 @@ export const LessonsPage = () => {
       label: `Слова (1-1) 3+4 🐤`,
     },
     {
+      key: "/lessons/words-5-6",
+      label: `Слова (1-1) 5+6 🐤`,
+    },
+    {
+      key: "/lessons/words-7-8",
+      label: `Слова (1-1) 7+8 🐤`,
+    },
+    {
       key: "/lessons/present-tense",
       label: `Настоящее время ⏰`,
     },
