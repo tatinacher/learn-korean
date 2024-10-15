@@ -5,7 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.tsx";
 import {
-  FirstWordsPage,
+  Words_1_2_Page,
+  // Words_3_4_Page,
   HangulPage,
   LessonsPage,
   MainPage,
@@ -32,9 +33,13 @@ const router = createBrowserRouter([
             element: <HangulPage />,
           },
           {
-            path: "first-words",
-            element: <FirstWordsPage />,
+            path: "words-1-2",
+            element: <Words_1_2_Page />,
           },
+          // {
+          //   path: "words-3-4",
+          //   element: <Words_3_4_Page />,
+          // },
           {
             path: "present-tense",
             element: <PresentTensePage />,

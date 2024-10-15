@@ -11,8 +11,12 @@ export const LessonsPage = () => {
       label: `Корейский алфавит 🔤`,
     },
     {
-      key: "/lessons/first-words",
-      label: `Первые слова 🐤`,
+      key: "/lessons/words-1-2",
+      label: `Слова (1-1) 1+2 🐤`,
+    },
+    {
+      key: "/lessons/words-3-4",
+      label: `Слова (1-1) 3+4 🐤`,
     },
     {
       key: "/lessons/present-tense",
